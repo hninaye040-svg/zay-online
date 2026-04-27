@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="images/favi-con.png" type="image/x-icon" />
+    <!-- bootstrap cdn css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawsone cdn css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Panel: Zay Online</title>
+  </head>
+  <body>
+    <div class="conatiner-fluid">
+      <div class="row g-0">
+        <!-- left side  -->
+        <div class="col-2 pe-3">
+          <!-- logo -->
+          <h2 class="h4 text-center text-primary py-3">
+            <img src="images/logo.png" alt="" style="width: 50px" />
+            <span class="text-primary text-uppercase d-none d-lg-inline"
+              >Admin</span
+            >
+          </h2>
+          <!-- control list group  -->
+
+          <div class="list-group text-center text-lg-start">
+            <span
+              class="list-group-item list-group-item-action disabled d-none d-lg-block text-uppercase"
+              aria-current="true"
+            >
+              Control
+            </span>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action active me-2 text-lg-start text-center"
+            >
+              <i class="fa-solid fa-house"></i>
+              <span class="d-none d-lg-inline">Dashboard</span>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action me-2 text-lg-start text-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <span class="d-none d-lg-inline">Customers</span>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action me-2 text-lg-start text-center"
+            >
+              <i class="fa-solid fa-book"></i>
+              <span class="d-none d-lg-inline">Products</span>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action me-2 text-lg-start text-center"
+            >
+              <i class="fa-solid fa-chart-line"></i>
+              <span class="d-none d-lg-inline">Promotions</span>
+            </a>
+          </div>
+        </div>
+        <!-- right content  -->
+        <div class="col-10 bg-secondary">
+          <!-- nav bar  -->
+          <ul class="nav justify-content-end bg-light py-3">
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+            </li>
+            <li class="nav-item dropdown">
+              <button
+                class="btn nav-link dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-user"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">User Profile</a></li>
+                <li><a class="dropdown-item" href="#"> Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa-solid fa-gear"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- right body  -->
+
+          <div class="container py-3">
+            <div class="row">
+              <div class="col">
+                <!-- alert box -->
+                <div class="alert alert-success" role="alert">
+                  <i class="fa-solid fa-download"></i>
+                  A simple success alert—check it out!
+                  <a href="#">Download Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- quick start section  -->
+            <div>
+              <h2 class="h5 text-uppercase text-white-50">Quick stats</h2>
+              <div class="row d-flex flex-column flex-lg-row">
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h3 class="card-title">1,250</h3>
+                      <span class="text-success">
+                        <i class="fas fa-chart-line"> == $0 : :before </i>
+                        "Daily visitors"
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h3 class="card-title">8,210</h3>
+                      <span class="text-success">
+                        <i class="fas fa-chart-line"> == $0 : :before </i>
+                        "Weekly visitors"
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h3 class="card-title">12,560</h3>
+                      <span class="text-success">
+                        <i class="fas fa-chart-line"> == $0 : :before </i>
+                        "Monthly visitors"
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h3 class="card-title">102,250</h3>
+                      <span class="text-success">
+                        <i class="fas fa-chart-line"> == $0 : :before </i>
+                        "Yearly visitors"
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- location and data  -->
+            <div class="row mt-2 d-flex flex-column flex-lg-row">
+              <div class="col mt-2">
+                <h2 class="h5 text-uppercase text-white-50">Customers</h2>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      <span>Woman</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-success"
+                          style="width: 25%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <span>Man</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-primary"
+                          style="width: 75%"
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <span>Girl</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-warning"
+                          style="width: 50%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <span>Boy</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-danger"
+                          style="width: 25%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mt-2">
+                <h2 class="h5 text-uppercase text-white-50">Data</h2>
+                <div class="card">
+                  <div class="card-body">
+                    <!-- btn group  -->
+                    <div class="text-end">
+                      <button class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-arrow-down-wide-short"></i>
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-filter"></i>
+                      </button>
+                    </div>
+                    <!-- tabel  -->
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Age Group</th>
+                          <th scope="col">Data</th>
+                          <th scope="col">Progress</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>20-30</td>
+                          <td>19%</td>
+                          <td><i class="fa-solid fa-chart-pie"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>30-40</td>
+                          <td>40%</td>
+                          <td><i class="fa-solid fa-chart-gantt"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>40-50</td>
+                          <td>20%</td>
+                          <td><i class="fas fa-chart-line"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>>50</td>
+                          <td>11%</td>
+                          <td><i class="fa-solid fa-chart-pie"></i></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center py-3">
+      <p>Copyright &copy; 2026. Zay Online</p>
+    </footer>
+
+    <!-- bootstrap cdn js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawsone cdn js  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+      integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

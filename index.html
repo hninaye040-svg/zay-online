@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon" />
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -37,8 +37,8 @@
     <!-- Nav Bar Section -->
     <nav class="navbar navbar-expand-lg bg-transparent shadow-sm">
       <div class="container-fluid">
-        <a class="navbar-brand rounded-3" href="#">
-          <img src="images/logo.png" height="56px" />
+        <a class="navbar-brand rounded-3" href="index.html">
+          <img src="images/Zayonline_Logo_png-02 (1).avif" width="200px" />
         </a>
         <button
           class="navbar-toggler"
@@ -61,7 +61,7 @@
               <a class="nav-link" href="product.html">Product</a>
             </li>
             <li class="nav-item mx-3 fw-normal fs-5">
-              <a class="nav-link" href="order.html">Order Form</a>
+              <a class="nav-link" href="contact-us.html">Contact-us</a>
             </li>
             <li class="nav-item mx-3 fw-normal fs-5">
               <a class="nav-link" href="About-us.html">About-us</a>
@@ -102,128 +102,85 @@
     <!-- Mobile View Search Bar -->
 
     <!-- Promotion Section -->
-    <div class="container p-3">
-      <br /><br />
-      <h2 class="text-transparent text-center">Promotions</h2>
-      <br /><br />
-
-      <div class="row">
-        <div class="col-md-8 mx-auto p-3">
-          <div
-            id="carouselExampleDark"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div
-                class="carousel-item active card p-2 rounded-3"
-                data-bs-interval="10000"
-              >
-                <img
-                  src="images/promo1.png"
-                  class="d-block w-100 rounded-3"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-white">Promo 1</h5>
-                  <a
-                    href="order.html"
-                    class="btn btn-outline-primary w-40 text-decoration-none"
-                    >Order Now</a
-                  >
-                </div>
-              </div>
-              <div
-                class="carousel-item card p-2 rounded-3"
-                data-bs-interval="2000"
-              >
-                <img
-                  src="images/promo2.png"
-                  class="d-block w-100 rounded-3"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-white">Promo2</h5>
-                  <a
-                    href="order.html"
-                    class="btn btn-outline-primary w-40 text-decoration-none"
-                    >Order Now</a
-                  >
-                </div>
-              </div>
-              <div class="carousel-item card p-2 rounded-3">
-                <img
-                  src="images/promo3.png"
-                  class="d-block w-100 rounded-3"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-white">Promo3</h5>
-                  <a
-                    href="order.html"
-                    class="btn btn-outline-primary w-40 text-decoration-none"
-                    >Order Now</a
-                  >
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+    <!-- slider  -->
+    <div id="slider" class="carousel slide">
+      <!-- indicators  -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <!-- inner  -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slide 1.jpg" class="d-block w-100 h-50" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Enhance Your Natural Beauty</h5>
+            <p>Premium skincare and makeup for every skin type</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide 2.jpg" class="d-block w-100 h-50" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Natural Cosmestics Overview</h5>
+            <p>
+              Our products are designed to improve skin elasticity and natural
+              glow
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 3.jpg" class="d-block w-100 h-50" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
       </div>
+      <!-- prev button  -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <!-- next button  -->
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <!-- Promotion Section -->
+
     <!-- Product Section -->
-    <div class="container p-3">
+    <div class="container my-3">
       <br />
-      <h2 class="text-center text-transparent d-none d-lg-block">
-        Our Products
-      </h2>
+      <h2 class="border-bottom">Cosmestics</h2>
       <br />
 
       <div class="row">
@@ -319,7 +276,7 @@
           <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
             <div class="d-flex">
               <img
-                src="images/foundation makeup.jpg"
+                src="images/makeup.jpg"
                 class="rounded-4 mt-3"
                 width="20%"
                 height="50%"
@@ -362,136 +319,141 @@
       </div>
     </div>
 
-    <div class="container p-3">
-      <div class="row">
-        <div class="col-md-6 p-2">
-          <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
-            <div class="d-flex">
-              <img
-                src="images/shampoo.jpg"
-                class="rounded-4 mt-3"
-                width="20%"
-                height="50%"
-              />
-              <div class="p-3">
-                <h4>Shamboo</h4>
-                <p>$2.3</p>
-                <p class="text-muted">Some product description</p>
-                <a
-                  href="order.html"
-                  class="btn btn-primary w-40 text-decoration-none"
-                  >Order Now</a
-                >
+    <div class="container my-3">
+      <br />
+      <h2 class="border-bottom">Other Products</h2>
+      <br />
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
+              <div class="d-flex">
+                <img
+                  src="images/toothpaste.jpg"
+                  class="rounded-4 mt-3"
+                  width="20%"
+                  height="50%"
+                />
+                <div class="p-3">
+                  <h4>Toothpaste</h4>
+                  <p>$2.3</p>
+                  <p class="text-muted">Some product description</p>
+                  <a
+                    href="order.html"
+                    class="btn btn-primary w-40 text-decoration-none"
+                    >Order Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 p-2">
-          <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
-            <div class="d-flex">
-              <img
-                src="images/lipstick.jpg"
-                class="rounded-4 mt-3"
-                width="20%"
-                height="50%"
-              />
-              <div class="p-3">
-                <h4>Lipstick</h4>
-                <p>$2.3</p>
-                <p class="text-muted">Some product description</p>
-                <a
-                  href="order.html"
-                  class="btn btn-primary w-40 text-decoration-none"
-                  >Order Now</a
-                >
+          <div class="col-md-6 p-2">
+            <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
+              <div class="d-flex">
+                <img
+                  src="images/body wash.jpg"
+                  class="rounded-4 mt-3"
+                  width="20%"
+                  height="50%"
+                />
+                <div class="p-3">
+                  <h4>Body Wash</h4>
+                  <p>$2.3</p>
+                  <p class="text-muted">Some product description</p>
+                  <a
+                    href="order.html"
+                    class="btn btn-primary w-40 text-decoration-none"
+                    >Order Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 p-2">
-          <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
-            <div class="d-flex">
-              <img
-                src="images/facewash.jpg"
-                class="rounded-4 mt-3"
-                width="20%"
-                height="50%"
-              />
-              <div class="p-3">
-                <h4>Facewash</h4>
-                <p>$5.6</p>
-                <p class="text-muted">Some product description</p>
-                <a
-                  href="order.html"
-                  class="btn btn-primary w-40 text-decoration-none"
-                  >Order Now</a
-                >
+          <div class="col-md-6 p-2">
+            <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
+              <div class="d-flex">
+                <img
+                  src="images/detergent.jpg"
+                  class="rounded-4 mt-3"
+                  width="20%"
+                  height="50%"
+                />
+                <div class="p-3">
+                  <h4>Detergent</h4>
+                  <p>$5.6</p>
+                  <p class="text-muted">Some product description</p>
+                  <a
+                    href="order.html"
+                    class="btn btn-primary w-40 text-decoration-none"
+                    >Order Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 p-2">
-          <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
-            <div class="d-flex">
-              <img
-                src="images/automatic gel.jpg"
-                class="rounded-4 mt-3"
-                width="20%"
-                height="50%"
-              />
-              <div class="p-3">
-                <h4>Automatic Gel</h4>
-                <p>$4.5</p>
-                <p class="text-muted">Some product description</p>
-                <a
-                  href="order.html"
-                  class="btn btn-primary w-40 text-decoration-none"
-                  >Order Now</a
-                >
+          <div class="col-md-6 p-2">
+            <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
+              <div class="d-flex">
+                <img
+                  src="images/automatic gel.jpg"
+                  class="rounded-4 mt-3"
+                  width="20%"
+                  height="50%"
+                />
+                <div class="p-3">
+                  <h4>Automatic Gel</h4>
+                  <p>$4.5</p>
+                  <p class="text-muted">Some product description</p>
+                  <a
+                    href="order.html"
+                    class="btn btn-primary w-40 text-decoration-none"
+                    >Order Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 p-2">
-          <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
-            <div class="d-flex">
-              <img
-                src="images/kitchen cleaner.jpg"
-                class="rounded-4 mt-3"
-                width="20%"
-                height="50%"
-              />
-              <div class="p-3">
-                <h4>Kitchen cleaner</h4>
-                <p>$8.5</p>
-                <p class="text-muted">Some product description</p>
-                <a
-                  href="order.html"
-                  class="btn btn-primary w-40 text-decoration-none"
-                  >Order Now</a
-                >
+          <div class="col-md-6 p-2">
+            <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
+              <div class="d-flex">
+                <img
+                  src="images/kitchen cleaner.jpg"
+                  class="rounded-4 mt-3"
+                  width="20%"
+                  height="50%"
+                />
+                <div class="p-3">
+                  <h4>Kitchen cleaner</h4>
+                  <p>$8.5</p>
+                  <p class="text-muted">Some product description</p>
+                  <a
+                    href="order.html"
+                    class="btn btn-primary w-40 text-decoration-none"
+                    >Order Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 p-2">
-          <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
-            <div class="d-flex">
-              <img
-                src="images/soft cream.jpg"
-                class="rounded-4 mt-3"
-                width="20%"
-                height="50%"
-              />
-              <div class="p-3">
-                <h4>soft Cream</h4>
-                <p>$6.5</p>
-                <p class="text-muted">Some product description</p>
-                <a
-                  href="order.html"
-                  class="btn btn-primary w-40 text-decoration-none"
-                  >Order Now</a
-                >
+          <div class="col-md-6 p-2">
+            <div class="p-3 border-0 rounded-4 bg-body shadow w-100">
+              <div class="d-flex">
+                <img
+                  src="images/soft cream.jpg"
+                  class="rounded-4 mt-3"
+                  width="20%"
+                  height="50%"
+                />
+                <div class="p-3">
+                  <h4>soft Cream</h4>
+                  <p>$6.5</p>
+                  <p class="text-muted">Some product description</p>
+                  <a
+                    href="order.html"
+                    class="btn btn-primary w-40 text-decoration-none"
+                    >Order Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -502,9 +464,9 @@
     <!-- Product Section -->
 
     <!-- Top Products Section -->
-    <div class="container p-3">
+    <div class="container my-3">
       <br /><br />
-      <h2 class="text-center text-transparent">Top Products</h2>
+      <h2 class="border-bottom">Top Products</h2>
       <br /><br />
 
       <div class="row">
@@ -556,101 +518,91 @@
     </div>
     <!-- Top Products Section -->
 
-    <!-- Order Form Section -->
-    <div class="container">
-      <div class="row p-3">
-        <div class="col-md-8 mx-auto p-3">
-          <br />
-          <h2 class="text-center text-white">
-            Fill this form for to confirm your order
-          </h2>
-          <br />
-          <form action="" class="row g-3">
-            <fieldset class="border p-3 rounded-3 border-2">
-              <legend class="float-none w-auto p-2 text-white">
-                Select Product
-              </legend>
+    <!-- About-us section  -->
 
-              <div class="d-flex">
-                <img
-                  src="images/lipstick.jpg"
-                  alt="Lip stick"
-                  class="w-25 h-25 rounded-3"
-                />
-                <div class="px-3">
-                  <h3>Lipstick</h3>
-                  <p>$ 2.5</p>
+    <section class="about py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/shop.jpg" class="img-fluid w-100 h-auto" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="md-5 text-align">About Us</h2>
+            <p>
+              Our online store is a one-stop shopping platform that offers a
+              wide variety of products including cosmetics, fashion,
+              electronics, and daily essentials. We are committed to providing
+              high-quality and affordable products for everyone.
+            </p>
 
-                  <label for="inputNumber" class="form-label">Items</label>
+            <p>
+              We focus on customer satisfaction by offering fast delivery,
+              secure payment, and friendly service. Our goal is to make online
+              shopping easy, reliable, and enjoyable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-us section  -->
+    <section class="py-5 btn-outline-light">
+      <div class="container">
+        <div class="row shadow rounded overflow-hidden">
+          <!-- LEFT SIDE (Info + Image Background Feel) -->
+          <div
+            class="col-md-5 text-transparent p-5 d-flex flex-column justify-content-center"
+          >
+            <h2 class="mb-4">Get in Touch</h2>
+            <p>Have questions about our products? We’re here to help you.</p>
+
+            <p class="mt-4">📍 Yangon, Myanmar</p>
+            <p>📞 09-123-456-789</p>
+            <p>✉ support@mystore.com</p>
+
+            <p class="mt-3">🕒 Mon - Sun: 9AM - 9PM</p>
+          </div>
+
+          <!-- RIGHT SIDE (Form) -->
+          <div class="col-md-7 bg-white p-5">
+            <h4 class="mb-4">Send Message</h4>
+
+            <form>
+              <div class="row">
+                <div class="col-md-6 mb-3">
                   <input
-                    type="number"
-                    class="form-control w-25"
-                    min="1"
-                    value="1"
-                    id="inputNumber"
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
                   />
                 </div>
               </div>
-            </fieldset>
 
-            <fieldset class="border p-3 rounded-3 border-2">
-              <legend class="float-none w-auto p-2 text-white">
-                Delivery Details
-              </legend>
+              <input
+                type="email"
+                class="form-control mb-3"
+                placeholder="Email"
+              />
 
-              <div class="col-md-12">
-                <label for="inputName" class="form-label text-white"
-                  >Name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputName"
-                  placeholder="Name"
-                />
-              </div>
+              <textarea
+                class="form-control mb-3"
+                rows="4"
+                placeholder="Your Message"
+              ></textarea>
 
-              <div class="col-md-12">
-                <label for="inputPhone" class="form-label text-white"
-                  >Phone</label
-                >
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="inputPhone"
-                  placeholder="097979xxxxxx"
-                />
-              </div>
-
-              <div class="col-md-12">
-                <label for="inputEmail" class="form-label text-white"
-                  >Email</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputEmail"
-                  placeholder="someone@gmail.com"
-                />
-              </div>
-
-              <div class="col-md-12">
-                <label for="textarea" class="form-label text-white"
-                  >Your Address
-                </label>
-                <textarea
-                  class="form-control mt-3"
-                  placeholder="Your Address Details"
-                  id="textarea"
-                  style="height: 150px"
-                ></textarea>
-              </div>
-            </fieldset>
-          </form>
+              <button class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Order Form Section -->
+    </section>
 
     <!-- Footer Section -->
     <div class="container-fluid text-center p-5">
@@ -664,12 +616,9 @@
         <i class="fa-brands fa-twitter"></i>
       </a>
       <br /><br />
-      <p class="text-white fs-12">
-        All right reserved. Designed By
+      <p class="text-dark fs-12">
+        copyright©2026. All rights reserved.
         <br />
-        <a href="#" class="text-white text-decoration-none">
-          Let's Learn Programming
-        </a>
       </p>
     </div>
     <!-- Footer Section -->
